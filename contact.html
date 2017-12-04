@@ -43,31 +43,24 @@
 
         <div class="row">
             <section class="col-xs-12 col-sm-12 col-md-6 col-lg-8 main">
-                <h2>Portfolio</h2>
+                <h2>Contact</h2>
                 
-                <div class="work">
-                   <img class="center-block" src="assets/images/beach-me.jpg" alt="beach">
-
-                   <h3>The Beach</h3>
-                </div>
-
-                <div class="work">
-                   <img class="center-block" src="assets/images/hpyhrs.jpg" alt="happy-hours">
-
-                   <h3>Happy Hours</h3>
-                </div>
-
-                <div class="work">
-                   <img class="center-block" src="assets/images/interesting.jpg" alt="interesting">
-
-                   <h3>Interesting</h3>
-                </div>
-
-                <div class="work">
-                   <img class="center-block" src="assets/images/websites.jpg" alt="websites">
-
-                   <h3>Websites</h3>
-                </div>
+                    <form action="/action_page.php">
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="comment">Message Me:</label>
+                            <textarea class="form-control" rows="4" id="message" placeholder="Message Me"></textarea>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" name="remember"> Remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-warning">Submit</button>
+                    </form>
+                
             </section>
 
             <div class="col-xs-2 col-sm-1 col-md-2 col-lg-1 empty"></div>
